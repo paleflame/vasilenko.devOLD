@@ -1,0 +1,40 @@
+.HeaderContent {
+  padding: 140px 0 70px 0;
+  display: grid;
+  grid-template-columns: 1fr 250px;
+  column-gap: 100px;
+}
+.HeaderContent .textContent {
+  display: grid;
+  gap: 40px;
+}
+.HeaderContent .textContent .heading {
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 60px;
+  color: #21243D;
+}
+.HeaderContent .textContent .caption {
+  margin: 24px auto 0 auto;
+}
+.HeaderContent .textContent .button {
+  width: 208px;
+  height: 47px;
+  background: #FF6464;
+  border-radius: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  font-size: 20px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.HeaderContent .myImage {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/*# sourceMappingURL=HeaderContent.module.css.map */

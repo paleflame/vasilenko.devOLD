@@ -1,0 +1,57 @@
+.HeaderContent{
+  padding: 140px 0 70px 0;
+
+
+  display: grid;
+  grid-template-columns: 1fr 250px;
+  column-gap: 100px;
+
+  .textContent{
+    display: grid;
+    gap: 40px;
+    .heading{
+
+      font-weight: 700;
+      font-size: 44px;
+      line-height: 60px;
+      color: #21243D;
+
+    }
+    .caption{
+      margin: 24px auto 0 auto;
+
+      //TODO: `Изменить значение max-width на какой-нибудь контейнер. Можно сделать узкий контейнер и выровнять его с меню.
+
+    }
+
+    .button{
+
+      width: 208px;
+      height: 47px;
+
+      background: #FF6464;
+      border-radius: 2px;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+
+
+      font-weight: 500;
+      font-size: 20px;
+      color: #FFFFFF;
+      text-decoration: none;
+
+    }
+
+  }
+
+  .myImage{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+}
+

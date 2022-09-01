@@ -1,0 +1,33 @@
+@import "/src/globalCSS/fonts.css";
+
+
+body{
+    font-family: 'Heebo', sans-serif;
+}
+.containerXL{
+    max-width: 970px;
+    margin: 0 auto;
+    padding: 16px;
+}
+.containerL{
+    max-width: 970px;
+    margin: 0 auto;
+}
+.containerM{
+    max-width: 570px;
+    margin: 0 auto;
+}
+
+
+
+
+ul, ol{
+    list-style-type: none;
+}
+
+*, ::before, ::after{
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+}
