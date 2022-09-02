@@ -3,11 +3,13 @@
 
 body{
     font-family: 'Heebo', sans-serif;
+    font-weight: 400;
+    color: #21243D;;
 }
 .containerXL{
-    max-width: 970px;
+    max-width: 1006px;
     margin: 0 auto;
-    padding: 16px;
+    padding: 0 16px;
 }
 .containerL{
     max-width: 970px;

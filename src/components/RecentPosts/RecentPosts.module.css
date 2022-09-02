@@ -1,0 +1,25 @@
+.RecentPosts {
+  padding: 25px 0;
+  background-color: #EDF7FA;
+}
+.RecentPosts .upperBlock {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 22px;
+}
+.RecentPosts .upperBlock .heading {
+  font-weight: 400;
+  font-size: 22px;
+  color: #21243D;
+}
+.RecentPosts .upperBlock .link {
+  font-size: 16px;
+  color: #00A8CC;
+}
+.RecentPosts .postsBlock {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr 1fr;
+}
+
+/*# sourceMappingURL=RecentPosts.module.css.map */

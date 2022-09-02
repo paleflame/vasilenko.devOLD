@@ -1,0 +1,19 @@
+.BlogPostCard {
+  background-color: #fff;
+  padding: 24px;
+}
+.BlogPostCard .heading {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 38px;
+}
+.BlogPostCard .info {
+  display: flex;
+  gap: 25px;
+  margin-top: 10px;
+}
+.BlogPostCard .lead {
+  margin-top: 30px;
+}
+
+/*# sourceMappingURL=BlogPostCard.module.css.map */

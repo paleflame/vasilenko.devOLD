@@ -1,0 +1,23 @@
+.BlogPostCard{
+  background-color: #fff;
+  padding: 24px;
+
+  .heading{
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 38px;
+
+  }
+  .info{
+    display: flex;
+    gap: 25px;
+    margin-top: 10px;
+  }
+
+  .lead{
+    margin-top: 30px;
+  }
+
+
+
+}

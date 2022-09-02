@@ -4,6 +4,16 @@
   grid-template-columns: 1fr 250px;
   column-gap: 100px;
 }
+@media (max-width: 768px) {
+  .HeaderContent {
+    column-gap: 50px;
+  }
+}
+@media (max-width: 600px) {
+  .HeaderContent {
+    grid-template-columns: 1fr;
+  }
+}
 .HeaderContent .textContent {
   display: grid;
   gap: 40px;
@@ -35,6 +45,12 @@
   height: 250px;
   border-radius: 50%;
   object-fit: cover;
+}
+@media (max-width: 600px) {
+  .HeaderContent .myImage {
+    grid-row: 1/2;
+    margin: 0 auto;
+  }
 }
 
 /*# sourceMappingURL=HeaderContent.module.css.map */
