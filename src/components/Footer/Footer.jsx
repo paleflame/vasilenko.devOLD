@@ -1,35 +1,29 @@
-import s from './Footer.css';
-
+import s from './Footer.module.css';
+import instagram from './icons/instagram.svg';
+import facebook from './icons/fb.svg';
+import linkedin from './icons/linkedin.svg';
+import twitter from './icons/twitter.svg';
+import {Icon} from "./Icon/Icon";
 
 const Footer =()=>{
     return (
         <footer className={s.Footer}>
-            <ul className={s.icons}>
-                <li>
-                    <a href="#">
-                        <img className={s.icon}
-                             src="../../../public/icons/instagram.svg"  alt=""/>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <img className={s.icon}
-                             src="../../../public/icons/twitter.svg" alt=""/>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <img className={s.icon}
-                             src="../../../public/icons/fb.svg"  alt=""/>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <img className={s.icon}
-                             src="../../../public/icons/insta.png" alt=""/>
-                    </a>
-                </li>
-            </ul>
+            <div className="containerXL">
+                <ul className={s.icons}>
+                    <Icon imageSrc={instagram} imageAlt={"instagram"}/>
+                    <Icon imageSrc={facebook} imageAlt={"facebook"}/>
+                    <Icon imageSrc={linkedin} imageAlt={"linkedin"}/>
+                    <Icon imageSrc={twitter} imageAlt={"twitter"}/>
+
+                </ul>
+            <p className={s.copyright}>
+                Copyright ©2020 All rights reserved
+
+            </p>
+
+
+            </div>
+
         
         </footer>
     )

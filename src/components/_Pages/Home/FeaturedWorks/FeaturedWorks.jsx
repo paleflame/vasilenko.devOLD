@@ -1,5 +1,5 @@
 import s from './FeaturedWorks.module.css';
-import {WorksGallery} from "../WorksGallery/WorksGallery";
+import {WorksGallery} from "../../Works/WorksGallery/WorksGallery";
 
 const FeaturedWorks = ()=>{
 

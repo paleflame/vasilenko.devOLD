@@ -1,5 +1,5 @@
 import s from './RecentPosts.module.css';
-import {BlogPostCard} from "../BlogPostCard/BlogPostCard";
+import {BlogPostCard} from "../../Blog/BlogPostCard/BlogPostCard";
 
 
 const RecentPosts = ()=>{
