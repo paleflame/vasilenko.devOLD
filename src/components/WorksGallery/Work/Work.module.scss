@@ -1,0 +1,65 @@
+.Work{
+  display: flex;
+  gap: 18px;
+  padding-bottom: 32px;
+  margin-top: 31px;
+  border-bottom: 1px solid #E0E0E0;
+
+  .cover{
+    width: 246px;
+    height: 184px;
+    object-fit: cover;
+  }
+
+  .textContent{
+
+
+    .heading{
+      font-weight: 700;
+      font-size: 30px;
+      line-height: 30px;
+      color: #21243D;
+
+
+    }
+    .workInfo{
+      margin-top: 10px;
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      .year{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        padding: 7px 10px;
+        // TODO ` Где начертание 900????????????
+        font-weight: 700; //по макету 900
+
+
+        font-size: 18px;
+        line-height: 15px;
+        color: #FFFFFF;
+        background: #142850;
+        border-radius: 16px;
+
+      }
+      .technologies{
+        font-size: 20px;
+        line-height: 20px;
+
+        color: #8695A4
+
+      }
+
+    }
+
+    .lead{
+      margin-top: 37px;
+
+    }
+
+  }
+
+
+}

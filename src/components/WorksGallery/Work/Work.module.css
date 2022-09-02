@@ -1,0 +1,46 @@
+.Work {
+  display: flex;
+  gap: 18px;
+  padding-bottom: 32px;
+  margin-top: 31px;
+  border-bottom: 1px solid #E0E0E0;
+}
+.Work .cover {
+  width: 246px;
+  height: 184px;
+  object-fit: cover;
+}
+.Work .textContent .heading {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 30px;
+  color: #21243D;
+}
+.Work .textContent .workInfo {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.Work .textContent .workInfo .year {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 7px 10px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 15px;
+  color: #FFFFFF;
+  background: #142850;
+  border-radius: 16px;
+}
+.Work .textContent .workInfo .technologies {
+  font-size: 20px;
+  line-height: 20px;
+  color: #8695A4;
+}
+.Work .textContent .lead {
+  margin-top: 37px;
+}
+
+/*# sourceMappingURL=Work.module.css.map */
