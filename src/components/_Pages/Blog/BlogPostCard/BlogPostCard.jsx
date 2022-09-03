@@ -1,9 +1,9 @@
 import s from './BlogPostCard.module.css';
 
 
-const BlogPostCard = ({headingText, date, topicText, leadText})=>{
+const BlogPostCard = ({headingText, date, topicText, leadText, customClass})=>{
     return (
-        <article className={s.BlogPostCard}>
+        <article className={`${s.BlogPostCard} ${customClass}`}>
             <h1 className={s.heading}>{headingText}</h1>
 
             <p className={s.info}>

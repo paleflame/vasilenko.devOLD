@@ -4,11 +4,21 @@
   padding-bottom: 32px;
   margin-top: 31px;
   border-bottom: 1px solid #E0E0E0;
+  @media (max-width: 600px) {
+    flex-direction: column;
+    
+  }
 
   .cover{
     width: 246px;
     height: 184px;
     object-fit: cover;
+    @media (max-width: 600px) {
+      height: 60vw;
+      width: 100%;
+
+    }
+
   }
 
   .textContent{

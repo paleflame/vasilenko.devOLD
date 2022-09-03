@@ -6,7 +6,7 @@ const HeaderContent = ()=>{
             <section className={s.HeaderContent}>
                 <div className={s.textContent}>
                     <h1 className={s.heading}>Салют! Меня зовут Данил. Я Frontend-разработчик. </h1>
-                    <p className={s.lead}> На этом сайте Вы можете ознакомиться с моим резюме, портфолио и прочесть статьи в блоге.</p>
+                    <p className={s.lead}>Пишу на React, пишу о литературе.</p>
                     <a className={s.button} href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target={"_blank"}>
                         Скачать резюме
                     </a>

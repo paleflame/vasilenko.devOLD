@@ -5,10 +5,21 @@
   margin-top: 31px;
   border-bottom: 1px solid #E0E0E0;
 }
+@media (max-width: 600px) {
+  .Work {
+    flex-direction: column;
+  }
+}
 .Work .cover {
   width: 246px;
   height: 184px;
   object-fit: cover;
+}
+@media (max-width: 600px) {
+  .Work .cover {
+    height: 60vw;
+    width: 100%;
+  }
 }
 .Work .textContent .heading {
   font-weight: 700;

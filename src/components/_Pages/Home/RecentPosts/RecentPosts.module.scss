@@ -2,6 +2,7 @@
   padding: 25px 0;
   background-color: #EDF7FA;
 
+
   .upperBlock{
     display: flex;
     justify-content: space-between;
@@ -24,9 +25,14 @@
   }
 
   .postsBlock{
+
     display: grid;
     gap: 20px;
     grid-template-columns: 1fr 1fr;
 
+
   }
+}
+.padding{
+  padding: 24px;
 }

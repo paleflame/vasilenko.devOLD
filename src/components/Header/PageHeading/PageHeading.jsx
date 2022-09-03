@@ -1,9 +1,9 @@
-
+import s from './PageHeading.module.css';
 
 
 const PageHeading = ({headingText})=>{
     return (
-        <h1>{headingText}</h1>
+        <h1 className={s.PageHeading}>{headingText}</h1>
     )
 
 }

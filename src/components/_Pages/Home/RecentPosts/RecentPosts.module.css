@@ -22,4 +22,8 @@
   grid-template-columns: 1fr 1fr;
 }
 
+.padding {
+  padding: 24px;
+}
+
 /*# sourceMappingURL=RecentPosts.module.css.map */
