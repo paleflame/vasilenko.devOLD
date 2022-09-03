@@ -21,6 +21,11 @@
   gap: 20px;
   grid-template-columns: 1fr 1fr;
 }
+@media (max-width: 768px) {
+  .RecentPosts .postsBlock {
+    grid-template-columns: 1fr;
+  }
+}
 
 .padding {
   padding: 24px;
