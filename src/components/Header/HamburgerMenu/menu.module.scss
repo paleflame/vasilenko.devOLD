@@ -1,0 +1,21 @@
+.menuWrapper{
+  position: fixed;
+  top: 50px;
+  width: 100vw;
+  height: 100%;
+  background-color: white;
+  border: 1px solid orange;
+  padding: 30px;
+
+  transform: translateX(+100%);
+  transition: all 0.3s;
+  &.activated{
+    transform: translateX(0);
+  }
+
+  .menu{
+
+    text-align: right;
+
+  }
+}

@@ -6,7 +6,7 @@
 }
 @media (max-width: 768px) {
   .HeaderContent {
-    column-gap: 50px;
+    gap: 50px;
   }
 }
 @media (max-width: 600px) {
@@ -17,6 +17,11 @@
 .HeaderContent .textContent {
   display: grid;
   gap: 40px;
+}
+@media (max-width: 600px) {
+  .HeaderContent .textContent {
+    text-align: center;
+  }
 }
 .HeaderContent .textContent .heading {
   font-weight: 700;
@@ -40,6 +45,11 @@
   color: #FFFFFF;
   text-decoration: none;
 }
+@media (max-width: 600px) {
+  .HeaderContent .textContent .button {
+    margin: 0 auto;
+  }
+}
 .HeaderContent .myImage {
   width: 250px;
   height: 250px;
@@ -49,7 +59,7 @@
 @media (max-width: 600px) {
   .HeaderContent .myImage {
     grid-row: 1/2;
-    margin: 0 auto;
+    justify-self: center;
   }
 }
 

@@ -6,6 +6,7 @@ import {Blog} from "./components/_Pages/Blog/Blog";
 import {Works} from "./components/_Pages/Works/Works";
 import {Contacts} from "./components/_Pages/Contacts/Contacts";
 import {Home} from "./components/_Pages/Home/Home";
+import Menu from "./components/Header/HamburgerMenu/menu";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
             <Route path={'/contacts'} element={<Contacts/>}/>
 
         </Routes>
+
         <Footer/>
 
 

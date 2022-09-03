@@ -1,9 +1,12 @@
 import s from './HeaderContent.module.css';
+import {HamburgerMenu} from "../HamburgerMenu/HamburgerMenu";
 
 const HeaderContent = ()=>{
     return (
-        <div className={"container"}>
+
             <section className={s.HeaderContent}>
+
+
                 <div className={s.textContent}>
                     <h1 className={s.heading}>Салют! Меня зовут Данил. Я Frontend-разработчик. </h1>
                     <p className={s.lead}>Пишу на React, пишу о литературе.</p>
@@ -15,7 +18,7 @@ const HeaderContent = ()=>{
                 <img className={s.myImage} src="https://phantom-marca.unidadeditorial.es/951a1ca91903fabfecac0ac837ee8a5d/resize/1320/f/jpg/assets/multimedia/imagenes/2022/06/19/16556554784469.jpg" alt=""/>
 
             </section>
-        </div>
+
     )
 }
 

@@ -17,7 +17,7 @@ const Footer =()=>{
 
                 </ul>
             <p className={s.copyright}>
-                Copyright ©2020 All rights reserved
+                Copyright ©2022 All rights reserved
 
             </p>
 

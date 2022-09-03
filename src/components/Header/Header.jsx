@@ -4,12 +4,14 @@ import {HeaderContent} from "./HeaderContent/HeaderContent";
 import {Routes, Route} from "react-router-dom";
 import {Works} from "../_Pages/Works/Works";
 import {PageHeading} from "./PageHeading/PageHeading";
+import {HamburgerMenu} from "./HamburgerMenu/HamburgerMenu";
 
 const Header = ()=>{
     return(
         <header className={s.Header}>
             <div className={"containerXL"}>
                 <NavBar/>
+                <HamburgerMenu/>
                 <Routes>
 
                     <Route path={'/home'}

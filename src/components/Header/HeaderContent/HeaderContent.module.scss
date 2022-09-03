@@ -7,7 +7,7 @@
   column-gap: 100px;
   
   @media (max-width: 768px) {
-    column-gap: 50px;
+    gap: 50px;
     
   }
   @media (max-width: 600px) {
@@ -18,6 +18,12 @@
   .textContent{
     display: grid;
     gap: 40px;
+    @media (max-width: 600px) {
+      text-align: center;
+
+    }
+
+
     .heading{
 
       font-weight: 700;
@@ -28,7 +34,6 @@
     }
     .caption{
       margin: 24px auto 0 auto;
-
       //TODO: `Изменить значение max-width на какой-нибудь контейнер. Можно сделать узкий контейнер и выровнять его с меню.
 
     }
@@ -40,17 +45,18 @@
 
       background: #FF6464;
       border-radius: 2px;
-
       display: flex;
       justify-content: center;
       align-items: center;
-
-
-
       font-weight: 500;
       font-size: 20px;
       color: #FFFFFF;
       text-decoration: none;
+
+      @media (max-width: 600px) {
+        margin: 0 auto;
+      }
+
 
     }
 
@@ -64,7 +70,7 @@
 
     @media (max-width: 600px) {
       grid-row: 1/2;
-     margin: 0 auto;
+      justify-self: center;
 
     }
 

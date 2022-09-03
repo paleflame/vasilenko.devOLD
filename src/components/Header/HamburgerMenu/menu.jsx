@@ -1,12 +1,11 @@
-import s from './NavBar.module.css';
+import React from 'react';
+import s from "./menu.module.scss";
 import {Link} from "react-router-dom";
-import Menu from "../HamburgerMenu/menu";
 
-const NavBar = () => {
+const Menu = ({active, setActive}) => {
     return (
-
-        <nav className={s.NavBar}>
-
+        <div className={active ? `${s.menuWrapper} ${s.activated}` : s.menuWrapper}
+             onClick={()=>{setActive(false)}}>
             <ul className={s.menu}>
                 <li className={s.menu__item}>
                     <Link className={s.link} to={"/home"}>
@@ -26,10 +25,11 @@ const NavBar = () => {
                 </li>
             </ul>
 
-        </nav>
 
-    )
-}
+        </div>
 
 
-export {NavBar};
+    );
+};
+
+export default Menu;
