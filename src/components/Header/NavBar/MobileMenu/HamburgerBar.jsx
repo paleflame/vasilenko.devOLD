@@ -1,5 +1,5 @@
-import s from './HamburgerMenu.module.css';
-import Menu from "./menu";
+import s from './HamburgerBar.module.css';
+import Menu from "./Menu";
 import {useState} from "react";
 
 // rsc - создание шаблонной компоненты

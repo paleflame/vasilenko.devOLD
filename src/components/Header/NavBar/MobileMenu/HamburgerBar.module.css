@@ -1,4 +1,5 @@
 .HamburgerMenu {
+  padding-bottom: 10px;
   display: none;
 }
 @media (max-width: 600px) {
@@ -32,4 +33,4 @@
   }
 }
 
-/*# sourceMappingURL=HamburgerMenu.module.css.map */
+/*# sourceMappingURL=HamburgerBar.module.css.map */

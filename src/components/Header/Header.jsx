@@ -4,7 +4,8 @@ import {HeaderContent} from "./HeaderContent/HeaderContent";
 import {Routes, Route} from "react-router-dom";
 import {Works} from "../_Pages/Works/Works";
 import {PageHeading} from "./PageHeading/PageHeading";
-import {HamburgerMenu} from "./HamburgerMenu/HamburgerMenu";
+import {HamburgerMenu} from "./NavBar/MobileMenu/HamburgerBar";
+
 
 const Header = ()=>{
     return(

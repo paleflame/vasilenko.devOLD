@@ -1,5 +1,4 @@
 import s from './HeaderContent.module.css';
-import {HamburgerMenu} from "../HamburgerMenu/HamburgerMenu";
 
 const HeaderContent = ()=>{
     return (
